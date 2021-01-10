@@ -1,0 +1,8 @@
+spring:
+  datasource:                                          
+    url: 'jdbc:mysql://localhost:3306/foodie-shop-dev?useUnicode=true&characterEncoding=UTF-8&autoReconnect=true'
+    password: '{cipher}63e8e9956dea4be0f73b89bae247dae38f2295130fa8f1bcb7953c53db2fd48b'
+    
+userservice:
+  registration:
+    disable: true
